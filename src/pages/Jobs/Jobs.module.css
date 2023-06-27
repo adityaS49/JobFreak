@@ -1,0 +1,50 @@
+.hamburgerMenu{
+    display: none;
+}
+.jobcard{
+
+    background-color: white;
+   
+}
+.jobdetails{
+    height: 100vh;
+    
+}
+.jobdetailsWrapper{
+    border: 2px solid grey;
+}
+.jobCardScroll{ 
+    overflow-y: scroll;
+    max-height: 100vh;
+}
+::-webkit-scrollbar {
+    width: .5px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: rgb(233, 233, 228);
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(174, 174, 178);
+  }
+
+@media(max-width:605px){
+    .hamburgerMenu{
+        display: block;
+        position: absolute;
+        top: -15px;
+        left: -10px;
+        z-index: 100;
+        
+    }
+    .asides{
+        display: none;
+    }
+}
+@media(max-width:700px){
+    .jobcard{
+        width: 100%;
+    }
+    .jobdetails{
+        display: none;
+    }
+}

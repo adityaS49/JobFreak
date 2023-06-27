@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Caladea:ital@1&family=Dancing+Script:wght@500&family=Merriweather:ital@1&family=Poppins&display=swap');
+.jobcardBanner{
+    border: 1px solid rgb(100, 104, 104);
+    border-radius: 5px;
+}
+.jobcardBanner:hover{
+    cursor: pointer;
+}
+.title{
+    font-family: 'Bacasime Antique', serif;
+    font-weight: 600;
+    text-decoration: underline;
+    
+}
+.period{
+    color: rgb(161, 159, 159);
+    font-size: 12px;
+}
+.bulletList {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .bulletList li::before {
+    content: "•"; /* Custom symbol */
+    margin-right: 4px;
+    font-size: 20px;
+  }
+  .descriptions{
+    color: #6f6f6f;
+    font-weight: 400 !important;
+  }

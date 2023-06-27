@@ -1,0 +1,193 @@
+.about {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(226, 236, 236);
+  padding: 30px;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  max-height: 100vh;
+}
+::-webkit-scrollbar {
+  width: 3px;
+}
+::-webkit-scrollbar-track {
+  background-color: rgb(129, 129, 126);
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(144, 144, 147);
+}
+.aboutWrapper {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.aboutBanner {
+  width: 90%;
+  padding: 20px 20px 3rem 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.aboutUsHeading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  background: linear-gradient(90deg, #007cf0 10.73%, #00dfd8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+ 
+}
+.aboutUsHeading h1{ 
+    box-shadow: 0px 15px 10px -15px #979494; 
+}
+
+.aboutUsPara {
+  width: 100%;
+  padding: 10px;
+  color: rgb(82, 82, 81);
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aboutUsPara p {
+  width: 70%;
+  text-align: center;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 1rem;
+}
+.socialsIcons {
+  display: flex;
+  gap: 3rem;
+}
+.icons:hover{
+    cursor: pointer;
+    color: #4984d7;
+}
+
+.meetUsBanner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+  padding-top: 3rem;
+  margin-bottom: 2rem;
+}
+.meetUsLogo {
+  width: 120px;
+  height: 120px;
+  background-color: rgb(199, 193, 193);
+  border-radius: 50%;
+  margin-top: -7rem;
+  object-fit: cover;
+}
+.meetUsLogo img{
+    border-radius: 50%;
+}
+.meetUsHeading {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+.meetUsHeading h1{
+    box-shadow: 0px 15px 10px -15px #979494; 
+
+}
+.meetUsLogoCard {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.meetUsPara {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(82, 82, 81);
+  font-size: 1.2rem;
+}
+.meetUsPara p {
+  width: 80%;
+}
+.meetUsCardSection {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.meetUsCard {
+  width: 250px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.meetUsCardLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.meetUsCardHeading {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.meetUsCardPara {
+  width: 100%;
+  padding: 2px;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(82, 82, 81);
+  font-size: .9rem;
+}
+
+@media (max-width: 605px) {
+  .socialsIcons {
+    display: flex;
+    gap: 1rem;
+  }
+  .aboutUsPara p {
+    width: 90%;
+    text-align: none;
+  }
+  .aboutBanner {
+    width: 100%;
+  }
+  .aboutWrapper{
+    padding: 0;
+  }
+}
