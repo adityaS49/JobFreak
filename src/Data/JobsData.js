@@ -82,7 +82,6 @@ export const JobData = [
         "You would also be responsible for reviewing problems and giving feedback to others",
         "The ability to be responsive, meet deadlines, and effectively collaborate with a team are qualities we highly appreciate.",
       ],
-      JobLink:'https://careers.blackrock.com/job-not-found/?jobid=18449849',
     period: "6 days",
   },
   {
@@ -166,7 +165,6 @@ export const JobData = [
         "You would also be responsible for reviewing problems and giving feedback to others",
         "The ability to be responsive, meet deadlines, and effectively collaborate with a team are qualities we highly appreciate.",
       ],
-      JobLink:'https://careers.fisglobal.com/us/en/job/FIGLUSJR0250154EXTERNAL/Software-Engineer-E?utm_source=linkedin&utm_medium=phenom-feeds',
     period: "10 days",
   },
 ];

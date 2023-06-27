@@ -30,9 +30,9 @@ const Jobs = () => {
       <div>
         <Navbar prop={isOpen} />
       </div>
-      <div className={`w-[100%] flex`}>
+      <div className={`w-[100%] pl-10 max-[605px]:p-0 flex overflow-hidden`}>
         <div
-          className={`${style.jobcard} flex items-center max-[605px]:pl-10 w-[40%] `}
+          className={`${style.jobcard} flex items-center  max-[605px]:pl-10 w-[40%] `}
         >
           <ul
             className={`w-[100%]  ${style.jobCardScroll} flex flex-col gap-[1rem] p-5 `}

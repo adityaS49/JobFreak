@@ -51,7 +51,7 @@ const JobDetails = ({ id, data }) => {
           </div>
         </div>
       </div>
-      <div className={`${styles.JobDetailsMiddle}`}>
+      <div className={`${styles.JobDetailsMiddle} mb-[4rem]`}>
         <div className={`${styles.jobDetailsScroll}`}>
           <div
             className={` border-b-2 solid rounded-[5px]  border-[#b0b2b4] flex flex-col gap-4 p-5`}
@@ -120,7 +120,7 @@ const JobDetails = ({ id, data }) => {
               <h1>Job Description</h1>
             </div>
             <div className={`text-[#6f6f6f] font-normal `}>
-              <div className={` w-[90%]`}>
+              <div className={` w-[90%] max-[1200px]:mb-[4rem]`}>
               <ul className={`${styles.bulletList}`}>
                 {data[id].fullDetails.map((item, index) => (
                   <li className={`break-normal mt-[-4px]`} key={index}>

@@ -27,7 +27,7 @@ const Form = () => {
       className={`flex ${styles.bg} flex-col h-[100vh] items-center justify-center  bg-[rgb(226,236,236)]; p-12 max-[500px]:p-2`}
     >
       <div
-        className={`flex flex-col shadow-[rgba(0, 0, 0, 0.35) 0px 5px 15px] gap-8 w-[60%] max-[1200px]:gap-4 max-[800px]:w-4/5 max-[450px]:w-full`}
+        className={`flex flex-col shadow-[rgba(0, 0, 0, 0.35) 0px 5px 15px] h-[100vh] gap-8 w-[60%] max-[1200px]:gap-4 max-[800px]:w-4/5 max-[450px]:w-full`}
       >
         <div
           className={`h-12 flex-1 flex justify-center items-center text-center text-2xl p-0.5`}
@@ -60,7 +60,7 @@ const Form = () => {
             <div
               className={`flex   gap-4 max-[1200px]:flex-col  `}
             >
-              <div className= {` w-[50%] max-[605px]:w-[100%] flex flex-col`}>
+              <div className= {` w-[100%] max-[605px]:w-[100%] flex flex-col`}>
                 <label className={`${styles.labels}`} htmlFor="email">
                   Email
                 </label>
@@ -76,7 +76,7 @@ const Form = () => {
                   }}
                 />
               </div>
-              <div className= {`w-[50%] max-[605px]:w-[100%] flex flex-col `}>
+              <div className= {`w-[100%] max-[605px]:w-[100%] flex flex-col `}>
                 <label className={`${styles.labels}`} htmlFor="email">
                   Phone Number
                 </label>
