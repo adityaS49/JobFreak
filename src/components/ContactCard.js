@@ -24,7 +24,7 @@ const Form = () => {
   };
   return (
     <section
-      className={`flex ${styles.bg} flex-col h-[100vh] items-center justify-center  bg-[rgb(226,236,236)]; p-12 max-[500px]:p-2`}
+      className={`flex ${styles.bg} flex-col h-[100vh] items-center justify-center   bg-[rgb(226,236,236)]; p-12 max-[500px]:p-2`}
     >
       <div
         className={`flex flex-col shadow-[rgba(0, 0, 0, 0.35) 0px 5px 15px] h-[100vh] gap-8 w-[60%] max-[1200px]:gap-4 max-[800px]:w-4/5 max-[450px]:w-full`}

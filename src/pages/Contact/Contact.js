@@ -25,7 +25,7 @@ const Contact = () => {
       <div>
         <Navbar prop={isOpen} />
       </div>
-      <div className={`w-[100%]`}>
+      <div className={` bg-[#f9fafb] w-[100%]`}>
         <Form />
       </div>
     </div>

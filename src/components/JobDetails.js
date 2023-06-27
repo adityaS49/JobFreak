@@ -10,7 +10,6 @@ import {
   MoneyOutlined,
 } from "@mui/icons-material";
 const JobDetails = ({ id, data }) => {
-  console.log(data[id].title);
   return (
     <>
       <div className="jobDetailsTop">
@@ -51,7 +50,7 @@ const JobDetails = ({ id, data }) => {
           </div>
         </div>
       </div>
-      <div className={`${styles.JobDetailsMiddle} mb-[4rem]`}>
+      <div className={`${styles.JobDetailsMiddle}  mb-[4rem]`}>
         <div className={`${styles.jobDetailsScroll}`}>
           <div
             className={` border-b-2 solid rounded-[5px]  border-[#b0b2b4] flex flex-col gap-4 p-5`}
