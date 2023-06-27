@@ -10,7 +10,7 @@
     justify-content: center;
     gap: 2rem;
   }
-  .aboutBanner {
+  .aboutBanners {
     width: 90%;
     padding: 20px 20px 3rem 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -134,4 +134,9 @@ background: linear-gradient(to bottom, #ef473a, #cb2d3e);
 
 .user__info > small {
   color: #666;
+}
+@media(max-width:605px){
+    .aboutBanners {
+        width: 100% ;
+    }
 }

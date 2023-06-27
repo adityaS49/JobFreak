@@ -4,7 +4,7 @@ const GuideCard = () => {
   return (
     <div className="about">
       <div className="aboutWrapperBody">
-        <div className="aboutBanner">
+        <div className="aboutBanners">
           <div className="aboutUsHeading">
             <h1>Guidance From Us</h1>
           </div>
