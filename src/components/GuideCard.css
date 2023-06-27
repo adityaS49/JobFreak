@@ -40,7 +40,7 @@
       box-shadow: 0px 15px 10px -15px #979494; 
   }
   
-  .aboutUsPara {
+  .aboutUsParas {
     width: 100%;
     padding: 10px;
     color: rgb(82, 82, 81);
@@ -48,6 +48,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .aboutUsParas p{
+    width: 80%;
   }
   
 .container {
@@ -139,4 +142,7 @@ background: linear-gradient(to bottom, #ef473a, #cb2d3e);
     .aboutBanners {
         width: 100% ;
     }
+    .aboutUsParas p{
+        width: 100%;
+      }
 }

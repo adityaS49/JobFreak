@@ -32,7 +32,7 @@ const Form = () => {
         <div
           className={`h-12 flex-1 flex justify-center items-center text-center text-2xl p-0.5`}
         >
-          <h1 className={`${styles.formHeading}`}>Contact Us</h1>
+          <h1 className={`${styles.formHeading} shadow-[0px_15px_10px_-15px_#979494]`}>Contact Us</h1>
         </div>
         <div
           className={` w-full flex-[7] shadow-[rgba(0, 0, 0, 0.35)_0px_5px_15px] flex flex-col items-center justify-center rounded-sm bg-[#2c2b2b] `}
